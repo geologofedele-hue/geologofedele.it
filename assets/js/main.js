@@ -2,6 +2,15 @@
 (function () {
   "use strict";
 
+  /* Cloudflare Web Analytics (senza cookie, non traccia i singoli visitatori) */
+  try {
+    var cf = document.createElement("script");
+    cf.defer = true;
+    cf.src = "https://static.cloudflareinsights.com/beacon.min.js";
+    cf.setAttribute("data-cf-beacon", '{"token": "b32dfca55b714aab9ddcc3f5689fd120"}');
+    (document.head || document.documentElement).appendChild(cf);
+  } catch (e) {}
+
   /* riquadro neutro mostrato quando una foto non è ancora stata caricata */
   var PLACEHOLDER =
     "data:image/svg+xml;charset=utf-8," +
