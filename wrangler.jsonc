@@ -1,8 +1,0 @@
-{
-  "name": "geologofedele-it",
-  "compatibility_date": "2026-09-09",
-  "assets": {
-    "directory": "./",
-    "not_found_handling": "404-page"
-  }
-}
