@@ -210,14 +210,14 @@ small { font-size: var(--step--1); }
 }
 .hero p { color: var(--ink-soft); font-size: var(--step-1); line-height: 1.55; max-width: 48ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+.hero-figure { max-width: 300px; margin-inline: auto; }
 .hero-figure img, .hero-figure svg {
   border-radius: var(--radius-lg); box-shadow: var(--shadow-lg);
-  width: 100%; background: #fff; border: 1px solid var(--line);
+  width: 100%; height: auto; background: #fff; border: 1px solid var(--line);
 }
-.hero-figure img { max-height: 520px; object-fit: cover; }
 @media (max-width: 860px) {
   .hero-inner { grid-template-columns: 1fr; }
-  .hero-figure { order: -1; max-width: 460px; }
+  .hero-figure { order: 0; max-width: 280px; }
 }
 
 .trust-strip {
