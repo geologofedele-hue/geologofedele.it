@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Studio di Geologia Tecnica — Dott. Geol. Massimo Pasquale Fedele">
+  <rect width="1200" height="630" fill="#f6f4ee"/>
+  <rect width="1200" height="12" fill="#8cbf3f"/>
+  <g transform="translate(80 92) scale(1.9)" fill="none" stroke-linecap="round">
+    <path d="M8 118 C 60 92, 120 150, 178 118 C 210 100, 236 104, 250 96" stroke="#b9b9b9" stroke-width="12"/>
+    <path d="M8 104 C 62 74, 122 132, 182 98 C 214 80, 238 86, 252 76" stroke="#cfa863" stroke-width="12"/>
+    <path d="M8 90 C 58 60, 100 92, 128 84 C 146 79, 156 66, 168 58 C 198 39, 226 45, 252 32" stroke="#8cbf3f" stroke-width="12"/>
+    <path d="M170 54 C 205 50, 214 92, 181 104 C 150 115, 124 86, 141 60 C 154 40, 187 40, 194 64 C 199 82, 184 96, 169 92 C 158 89, 154 78, 161 71" stroke="#efc22e" stroke-width="12"/>
+  </g>
+  <text x="92" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#23303a" font-weight="bold">Studio di Geologia Tecnica</text>
+  <text x="94" y="490" font-family="system-ui, Segoe UI, sans-serif" font-size="30" fill="#45555f">Dott. Geol. Massimo Pasquale Fedele</text>
+  <text x="94" y="543" font-family="system-ui, Segoe UI, sans-serif" font-size="25" fill="#6c7a82">Relazioni geologiche e geotecniche &#183; Indagini sismiche &#183; Invarianza idraulica</text>
+  <text x="94" y="582" font-family="system-ui, Segoe UI, sans-serif" font-size="23" fill="#8c7f6a">Desenzano del Garda (BS) &#183; www.geologofedele.it</text>
+</svg>

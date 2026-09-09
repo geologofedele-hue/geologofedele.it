@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Schema di invarianza idraulica: idrogrammi in ingresso e in uscita e vasca di laminazione">
+  <rect width="800" height="500" fill="#f5f1ea"/>
+  <g transform="translate(70 55)">
+    <rect x="0" y="0" width="420" height="270" fill="#fff" stroke="#cec6b4"/>
+    <g stroke="#e2ddd0"><line x1="0" y1="90" x2="420" y2="90"/><line x1="0" y1="180" x2="420" y2="180"/><line x1="140" y1="0" x2="140" y2="270"/><line x1="280" y1="0" x2="280" y2="270"/></g>
+    <path d="M0 250 C 70 250, 110 40, 150 40 C 190 40, 240 250, 420 250" fill="#f0d7c9" stroke="#b0532b" stroke-width="2.5"/>
+    <path d="M0 250 C 90 250, 150 150, 220 150 C 300 150, 340 250, 420 250" fill="none" stroke="#2c6472" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <text x="210" y="300" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#43555f">Idrogramma: stato di progetto vs. portata limite allo scarico</text>
+  </g>
+  <g transform="translate(540 90)">
+    <path d="M0 0 h150 v130 a75 22 0 0 1 -150 0 Z" fill="#cfe0e3" stroke="#2c6472" stroke-width="2"/>
+    <ellipse cx="75" cy="0" rx="75" ry="22" fill="#eaf1f2" stroke="#2c6472" stroke-width="2"/>
+    <ellipse cx="75" cy="55" rx="70" ry="20" fill="#8fbcc4" opacity="0.7"/>
+    <rect x="150" y="95" width="34" height="16" fill="#b0532b"/>
+    <text x="75" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#43555f">Vasca di laminazione</text>
+  </g>
+</svg>

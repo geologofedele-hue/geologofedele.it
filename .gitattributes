@@ -1,0 +1,6 @@
+# Normalizza i fine-riga a LF per i file di testo (coerenza tra Windows e i server)
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary

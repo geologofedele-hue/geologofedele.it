@@ -1,0 +1,7 @@
+# Redirect dal dominio senza "www" a quello con "www" (Netlify / Cloudflare Pages).
+# Su Cloudflare Pages il redirect apex -> www conviene comunque impostarlo anche
+# come "Redirect Rule" dal pannello (Rules -> Redirect Rules).
+https://geologofedele.it/*    https://www.geologofedele.it/:splat    301!
+
+# Pagina 404 personalizzata
+/*    /404.html    404

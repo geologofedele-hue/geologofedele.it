@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Studio di Geologia Tecnica Fedele">
+  <rect width="64" height="64" rx="14" fill="#f6f4ee"/>
+  <g fill="none" stroke-linecap="round">
+    <path d="M7 45 C 20 35, 34 51, 45 43 C 52 38, 58 39, 61 36" stroke="#b9b9b9" stroke-width="5.5"/>
+    <path d="M7 39 C 20 29, 35 45, 46 37 C 53 32, 58 34, 61 30" stroke="#cfa863" stroke-width="5.5"/>
+    <path d="M7 33 C 18 25, 28 33, 35 29 C 44 23, 53 25, 61 20" stroke="#8cbf3f" stroke-width="5.5"/>
+    <path d="M41 20 C 53 18, 56 36, 43 41 C 31 45, 22 33, 30 22 C 36 14, 49 15, 51 26 C 52 33, 45 39, 38 36" stroke="#efc22e" stroke-width="6"/>
+  </g>
+</svg>

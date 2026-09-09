@@ -1,0 +1,14 @@
+{
+  "name": "Studio di Geologia Tecnica — Dott. Geol. Massimo Pasquale Fedele",
+  "short_name": "Studio Fedele",
+  "description": "Relazioni geologiche e geotecniche, indagini sismiche, invarianza idraulica. Desenzano del Garda (BS).",
+  "lang": "it-IT",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#f6f4ee",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

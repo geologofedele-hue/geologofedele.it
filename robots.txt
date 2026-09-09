@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /grazie.html
+
+Sitemap: https://www.geologofedele.it/sitemap.xml

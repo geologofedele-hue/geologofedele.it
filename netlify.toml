@@ -1,0 +1,6 @@
+# Configurazione Netlify — sito statico, nessuna build.
+[build]
+  publish = "."
+  command = ""
+
+# Le intestazioni di sicurezza e i redirect sono nei file _headers e _redirects.
