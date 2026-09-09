@@ -321,6 +321,8 @@ figure.photo.portrait { max-width: 420px; }
 figure.photo.portrait img { aspect-ratio: 4 / 5; }
 figure.photo.tall { max-width: 380px; margin-inline: auto; }
 figure.photo.tall img { aspect-ratio: auto; object-fit: contain; }
+figure.photo.wide img { aspect-ratio: auto; object-fit: contain; background: #fff; }
+.figure-stack { display: grid; gap: 1.4rem; margin-top: var(--gap); }
 figure.photo figcaption { padding: .8rem 1rem; font-size: .85rem; color: var(--ink-faint); }
 
 /* stato "in attesa di fotografia": icona centrata su fondo neutro (di norma non usato) */
