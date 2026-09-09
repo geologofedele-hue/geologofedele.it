@@ -1,0 +1,10 @@
+.git
+.gitignore
+.gitattributes
+.assetsignore
+.nojekyll
+README.md
+netlify.toml
+CNAME
+wrangler.jsonc
+apri-anteprima.cmd
