@@ -5,7 +5,7 @@ Gia' presenti e collegate:
     hero.jpg              foto grande della home (stendimento sismico)
     lavoro-sul-campo.jpg  collage di indagini (home)
     srt-sezione.jpg       sezione tomografica (pagina Servizi)
-    lavoro-1 .. lavoro-9  griglia della Galleria
+    lavoro-1 .. lavoro-10 griglia della Galleria
     ritratto.jpg          fotografia personale (pagina "Chi sono")
 
 Per aggiungere altre foto alla Galleria: metti il file qui, poi in
