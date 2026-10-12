@@ -2,5 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /grazie
 Disallow: /grazie.html
+Disallow: /en/thank-you
 
 Sitemap: https://www.geologofedele.it/sitemap.xml

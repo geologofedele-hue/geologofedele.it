@@ -133,6 +133,11 @@ small { font-size: var(--step--1); }
 .site-nav a[aria-current="page"] { color: var(--accent-deep); font-weight: 600; }
 .site-nav .nav-cta { background: var(--accent); color: #fff; padding-inline: 1rem; margin-left: .5rem; }
 .site-nav .nav-cta:hover { background: var(--accent-deep); color: #fff; }
+.site-nav .lang-link {
+  margin-left: .35rem; padding: .4rem .6rem; font-size: .76rem; font-weight: 700;
+  letter-spacing: .07em; border: 1px solid var(--line-strong); border-radius: var(--radius);
+  color: var(--ink-soft);
+}
 
 .nav-toggle { display: none; }
 
@@ -162,6 +167,7 @@ small { font-size: var(--step--1); }
   .site-nav ul { flex-direction: column; align-items: stretch; gap: 0; padding: .6rem; }
   .site-nav a { padding: .85rem .8rem; font-size: 1rem; }
   .site-nav .nav-cta { margin: .5rem 0 0; text-align: center; }
+  .site-nav .lang-link { margin: .5rem 0 0; text-align: center; font-size: .9rem; }
 }
 
 /* ---------------------------------------------------------------- bottoni */

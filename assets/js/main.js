@@ -104,7 +104,7 @@
   if (form) {
     form.addEventListener("submit", function () {
       var btn = form.querySelector("button[type=submit]");
-      if (btn) { btn.disabled = true; btn.textContent = "Invio in corso…"; }
+      if (btn) { btn.disabled = true; btn.textContent = document.documentElement.lang === "en" ? "Sending…" : "Invio in corso…"; }
     });
   }
 })();
