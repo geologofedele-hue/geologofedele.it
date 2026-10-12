@@ -89,23 +89,9 @@
         </div>
 
         <div>
-          <!--
-            MODULO DI CONTATTO
-            ------------------
-            Configurato per Web3Forms (gratuito, senza account, server nell'UE, conforme al GDPR).
-            1) Vai su https://web3forms.com  -> inserisci la tua e-mail  -> ricevi una "Access Key".
-            2) Incolla la chiave nel campo hidden "access_key" qui sotto.
-            Nessun'altra modifica necessaria: l'invio arriva sulla tua e-mail e l'utente
-            viene reindirizzato a /grazie.
-
-            In alternativa, se pubblichi il sito su NETLIFY puoi usare i Netlify Forms:
-            - sostituisci  action="https://api.web3forms.com/submit"  con  action="/grazie"
-            - aggiungi al tag <form>:  netlify  netlify-honeypot="_gotcha"
-            - aggiungi un campo:  <input type="hidden" name="form-name" value="contatto">
-            - rimuovi il campo "access_key".
-          -->
+          <!-- Modulo di contatto: Web3Forms (access key gia' configurata). Dopo l'invio l'utente va su /grazie. La versione inglese e' in en/contact.html. -->
           <form id="contact-form" class="form-card" action="https://api.web3forms.com/submit" method="POST">
-            <input type="hidden" name="access_key" value="INSERISCI-QUI-LA-TUA-ACCESS-KEY-WEB3FORMS">
+            <input type="hidden" name="access_key" value="5e08d41e-b047-4b11-a618-ae275b801f91">
             <input type="hidden" name="subject" value="Nuova richiesta dal sito geologofedele.it">
             <input type="hidden" name="from_name" value="Sito geologofedele.it">
             <input type="hidden" name="redirect" value="https://www.geologofedele.it/grazie">
