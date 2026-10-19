@@ -170,29 +170,6 @@ small { font-size: var(--step--1); }
   .site-nav .lang-link { margin: .5rem 0 0; text-align: center; font-size: .9rem; }
 }
 
-/* ----------------------------------------------- piramide del valore: perche' > come > che cosa */
-.section-head.is-centered { margin-inline: auto; text-align: center; }
-.section-head.is-centered h2 { text-wrap: balance; }
-.pyramid { list-style: none; margin: 0 auto; padding: 0; display: flex; flex-direction: column; align-items: center; gap: 2rem; }
-.pyr {
-  --tone: var(--accent); position: relative; width: 100%; text-align: center;
-  background: #fff; border: 1px solid var(--line); border-top: 5px solid var(--tone);
-  border-radius: var(--radius-lg); box-shadow: var(--shadow); padding: 1.3rem 1.5rem 1.45rem;
-}
-.pyr-why  { max-width: 100%; --tone: var(--accent); }
-.pyr-how  { max-width: 82%;  --tone: var(--slate-deep); }
-.pyr-what { max-width: 64%;  --tone: var(--green-deep); }
-.pyr-tag { display: block; font-family: var(--serif); font-size: var(--step-3); font-weight: 700; line-height: 1.1; color: var(--tone); }
-.pyr-q { display: block; margin: .35rem 0 .75rem; font-size: .78rem; letter-spacing: .08em; text-transform: uppercase; color: var(--ink-faint); }
-.pyr p { max-width: 46ch; margin: 0 auto; font-size: var(--step-1); line-height: 1.45; color: var(--ink); }
-.pyr-link { display: inline-block; margin-top: .8rem; font-size: .92rem; font-weight: 600; text-decoration: none; }
-.pyr-link::after { content: " \2192"; }
-.pyr:not(:last-child)::after {
-  content: ""; position: absolute; left: 50%; bottom: -1.45rem; margin-left: -10px;
-  border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 12px solid var(--line-strong);
-}
-@media (max-width: 720px) { .pyr-how, .pyr-what { max-width: 100%; } }
-
 /* ---------------------------------------------------------------- bottoni */
 .btn {
   display: inline-flex; align-items: center; gap: .5rem;
